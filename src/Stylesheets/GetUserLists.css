@@ -1,0 +1,40 @@
+.list-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#list-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    background: url(https://images.unsplash.com/photo-1476136236990-838240be4859?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#list-empty {
+    width: 5%;
+}
+
+#list-home {
+    display: flex;
+    align-items: flex-end;
+    width: 10%;
+}
+
+#list-home > a {
+    font-size: 200%;
+    text-decoration: none;
+    bottom: 0;
+    color: #08ddec;
+}
+
+#list-title > h1{
+    justify-self: center;
+    color: aqua;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 3px 3px black;
+}

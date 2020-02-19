@@ -1,0 +1,63 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1492284163710-4eef97892705?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-user {
+    text-align: center;
+    height: 40%;
+    width: 40%;
+}
+
+.create-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#form-title {
+    color: aqua;
+    text-shadow: 4px 4px black;
+    font-family: 'Rock Salt', cursive;
+    font-size: 300%;
+}
+
+#username {
+    height: 8%;
+    width: 50%;
+    font-size: 150%;
+}
+
+#email {
+    height: 8%;
+    width: 50%;
+    font-size: 150%;
+}
+
+#password {
+    height: 8%;
+    width: 50%;
+    font-size: 150%;
+}
+
+#confirm {
+    height: 8%;
+    width: 50%;
+    font-size: 150%;
+}
+
+#new-sub {
+    height: 8%;
+    width: 40%;
+    font-size: 85%;
+    border: 5px solid aqua;
+    border-radius: 25px;
+}

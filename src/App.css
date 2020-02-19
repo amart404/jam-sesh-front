@@ -1,22 +1,107 @@
-.App {
-  text-align: center;
+main {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, darkgrey 0%, black 100%);
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.home-header {
+    display: flex;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1476136236990-838240be4859?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.empty-div {
+    align-self: flex-start;
+    width: 35%;
 }
 
-.App-link {
-  color: #09d3ac;
+.user-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-self: flex-end;
+    height: 75px;
+    width: 35%;
+    margin: 5px 30px;
+}
+
+.user-links > a {
+    font-size: 175%;
+    text-decoration: none;
+    color: #08ddec;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.about > p {
+    font-size: 150%;
+}
+
+.about > h1 {
+    font-family: 'Rock Salt', cursive;
+    color: aqua;
+    font-size: 3rem;
+    text-shadow: 4px 4px black;
+}
+
+.modal-window {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+    height: 75%;
+    overflow: auto;
+    background: url(https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    border: 5px solid aqua;
+    border-radius: 25px;
+}
+
+.modal-window > #new {
+    border: 5px solid aqua;
+    border-radius: 25px;
+}
+
+.modal-window > #cancel {
+    border: 5px solid aqua;
+    border-radius: 25px;
+}
+
+#playlist-name {
+    align-self: center;
+    width: 35%;
+}
+
+#new {
+    align-self: center;
+    width: 25%;
+    font-size: 75%;
+}
+
+#cancel {
+    align-self: center;
+    width: 20%;
+    font-size: 75%;
+}
+
+.users-playlists {
+    display: flex;
 }
